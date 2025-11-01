@@ -1,0 +1,51 @@
+.red{
+    color: red;
+}
+
+.darkred{
+    color: darkred;
+
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+
+.italic{
+    font-style:italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+p{
+    width:500px;
+    line-height:24px;
+    text-align: justify;
+}
+
+h1,h2{
+    text-align: left;
+}
+
+.arial{
+    font-family: Arial;
+}
+
+.font12{
+    font-size: 12px;
+}
+
+.font20{
+    font-size: 20px;
+}
+
+body{
+    width:550px;
+}
