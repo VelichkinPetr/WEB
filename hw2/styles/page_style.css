@@ -17,6 +17,8 @@
 p{
     text-indent: 20px;
     text-align: justify;
+    font-family: Arial;
+    line-height:30px;
 }
 
 h1,h2{
@@ -26,6 +28,6 @@ h1,h2{
 
 div{
     width:395px;
-    font-family: Arial;
+
 }
 
