@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.header {
+    width: 940px;
+    height: 80px;
+    margin-left: 250px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.header_img {
+    width: 112px;
+    height: 24px;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+.header_items{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    font-variant-caps: all-petite-caps;
+    margin-top: 31px;
+}
+.header_home {
+    width: 42px;
+    height: 30px;
+    margin-left: 77px;
+}
+.header_products {
+    width: 113px;
+    height: 30px;
+}
+.header_blog {
+    width: 38px;
+    height: 30px;
+}
+.header_about {
+    width: 49px;
+    height: 30px;
+}
+.header_contact {
+    width: 68px;
+    height: 30px;
+}
+.header_styleguide {
+    width: 89px;
+    height: 30px;
+}
+.cart{
+    width: 92px;
+    height: 26px;
+    display: flex;
+}
+.header_cart{
+    width: 16px;
+    height: 20px;
+    margin-top: 0px;
+}
+.header_text{
+    width: 38px;
+    height: 18px;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: center;
+    vertical-align:middle;
+}
+.header_circle{
+    width: 20px;
+    height: 18px;
+    background-color: #1D1F2E;
+    border-radius: 9px;
+    color:white;
+    text-align: center;
+    margin-left: 8px;
+    margin-top: 0px;
+}
+.header_rect {
+    width: 92px;
+    height: 2px;
+    background-color: #A25F4B4D;
+}

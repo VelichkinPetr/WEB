@@ -1,0 +1,70 @@
+.rect{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    margin-bottom: 24px;
+}
+
+.invisible{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 24px;
+}
+
+.green{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 24px;
+}
+
+.red{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 24px;
+}
+
+.black{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-bottom: 24px;
+}
+
+.yellow{
+    width: 100%;
+    height: 450px;
+    background-color: yellow;
+    margin-bottom: 24px;
+}
+
+
+.yellow24{
+    width: 100%;
+    height: 275px;
+    background-color: yellow;
+    margin-bottom: 24px;
+}
+
+.green24{
+    width: 100%;
+    height: 250px;
+    background-color: green;
+    margin-bottom: 24px;
+}
+
+.red24{
+    width: 100%;
+    height: 225px;
+    background-color: red;
+    margin-bottom: 24px;
+}
+
+.black24{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-bottom: 24px;
+}
