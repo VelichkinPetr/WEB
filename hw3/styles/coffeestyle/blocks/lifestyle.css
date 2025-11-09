@@ -1,0 +1,69 @@
+.lifestyle {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    width: 940px;
+}
+.lifestyle-title {
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(29, 31, 46, 1);
+}
+.lifestyle-cards {
+    display: flex;
+    width: 960px;
+    height: 603px;
+    margin-top: 100px;
+    padding-top: 2px;
+    
+}
+.lifestyle-card {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 300px;
+    height: 553px;
+}
+.lifestyle-card-title {
+    margin-right: 3px;
+    margin-top: 29px;
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: rgba(29, 31, 46, 1);
+}
+.lifestyle-card-text {
+    margin-top: 14px;
+    margin-right: 14px;
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(29, 31, 46, 0.7);
+    
+}
+.lifestyle-card-date {
+    margin-top: 16px;
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(29, 31, 46, 1);
+}

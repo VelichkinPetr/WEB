@@ -1,0 +1,253 @@
+.story {
+    position: relative;
+    width: 940px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 120px;
+}
+.story-head {
+    position: relative;
+    padding-top: 3px;
+    width: 658px;
+    margin-left: 141px;
+    margin-right: 141px;
+}
+.story-title {
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 578px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 16px;
+}
+.story-text {
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 21px;
+    color: rgba(29, 31, 46, 0.7);
+}
+.story-read-full {
+    width: 133px;
+    height: 30;
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(162, 95, 75, 1);
+    margin-left: 263px;
+    margin-right: 262px;
+    border-bottom: 2px solid rgba(162, 95, 75, 0.2);
+}
+.story-featured {
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgba(29, 31, 46, 1);
+    margin-top: 120px;
+}
+.big-cards {
+    display: flex;
+    margin-top: 100px;
+}
+.big-card {
+    width: 480px;
+    height: 653px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-title {
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:rgba(29, 31, 46, 1);
+}
+.card-price {
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+}
+
+.card-price-sale .card-price{
+    text-decoration: line-through;
+    color:rgba(29, 31, 46, 0.4);
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.card-price .card-price{
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.card-price-sale{
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(162, 95, 75, 1);
+
+}
+.story-products {
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+
+}
+.small-cards {
+    margin-top: 100px;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    width: 960px;
+    padding-bottom: 50px;
+}
+.small-card {
+    padding-left: 8.5px;
+    padding-right: 8.5px;
+    width: 317px;
+    height: 497px;
+}
+
+.small-card img{
+    width: 300px;
+    height: 380px;
+}
+.sale {
+    margin-top: 100px;
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(29, 31, 46, 1);
+}
+.premium {
+    display: flex;
+    width: 940px;
+    height: 280px;
+    margin-top: 100px;
+}
+
+.collage {
+    width: 280px;
+    margin-right: 20px;
+}
+.collage-vertical-2 {
+    width: 160px;
+    margin-right: 20px;
+}
+.collage-vertical-img{
+    margin-bottom: 20px;
+}
+.premium-description {
+    width: 460px;
+    height: 273px;
+    margin-top: 3.5px;
+    padding-left: 60px;
+}
+.premium-title {
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(29, 31, 46, 1);
+
+    margin-top: 4px;
+    margin-bottom: 14px;
+}
+.premium-subtitle {
+    width: 237px;
+
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 36px;
+    leading-trim: NONE;
+    line-height: 50px;
+    letter-spacing: 0%;
+    margin-bottom: 15px;
+}
+.premium-text {
+    width: 353px;
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color:rgba(29, 31, 46, 0.7);
+    margin-bottom: 29.5px;
+}
+.premium-button {
+    width: 173px;
+    height: 36px;
+    background-color: rgba(29, 31, 46, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 9px 24px;
+    text-align: center;
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.big-img {
+    height: 340px;
+    margin-top: 130px;
+}
+
+

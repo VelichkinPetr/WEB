@@ -1,0 +1,114 @@
+footer{
+    display: flex;
+    width: 940px;
+    height: 204px;
+    margin-left: 250px;
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+.footer-title {
+    width: 111px;
+    height: 24px;
+    margin-bottom: 22px;
+}
+.footer-description {
+    width: 258px;
+    height: 44px;
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 22px;
+    letter-spacing: 0%;
+    margin-bottom: 81px;
+    color: rgba(29, 31, 46, 0.7);
+}
+.footer-inc {
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: rgba(29, 31, 46, 0.3);
+}
+.footer-menu {
+    width: 147px;
+    height: 160px;
+    margin-left: 55px;
+}
+.footer-follow {
+    width: 147px;
+    height: 128px;
+    margin-left: 20px;
+}
+.footer-contact {
+    width: 293px;
+    margin-left: 83px;
+}
+
+.footer-menu-title, .footer-follow-title, .footer-contact-title  {
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(29, 31, 46, 1);    
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 23px;
+    margin-left: 0.5px;
+}
+
+footer li{
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    leading-trim: NONE;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color:rgba(29, 31, 46, 0.7);
+    margin-bottom: 10px;
+}
+
+.footer-contact-help-title {
+    margin-top: 23px;
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color:rgba(29, 31, 46, 0.7);
+    margin-bottom: 16px;
+}
+.footer-contact-help-mail {
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 23px;
+    leading-trim: NONE;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color:rgba(29, 31, 46, 1);
+    margin-bottom: 55px;
+}
+.footer-contact-powered{
+    font-family: Karla;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color:rgba(29, 31, 46, 0.3);
+}
