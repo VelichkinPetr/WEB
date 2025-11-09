@@ -1,0 +1,64 @@
+.big-cards {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.big-card {
+    align-items: center;
+    width: 387px;
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 9px;
+}
+.big-cards-title {
+    margin-top: 24px;
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(153, 153, 153, 1);
+
+}
+.big-cards-text {
+    margin-top: 18px;
+    font-family: Tenor Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 1);
+    margin-right: 40px;
+}
+.big-cards-author {
+    margin-top: 15px;
+    font-family: Libre Franklin;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 1);
+}
+.row{
+    margin: 0;
+}
+.line{
+    height: 1px;
+    margin-top: 65px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 90px;
+    background-color: rgba(230, 230, 230, 1);
+}

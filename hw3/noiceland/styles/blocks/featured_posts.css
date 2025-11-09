@@ -1,0 +1,71 @@
+.featured-posts{
+    display: flex;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 65px;
+}
+.featured-posts-title{
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(153, 153, 153, 1);
+    margin-left: 120px;
+    margin-bottom: 5px;
+}
+
+.featured-card {
+    align-items: center;
+    width: 590px;
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.featured-cards-title {
+    margin-top: 24px;
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(153, 153, 153, 1);
+
+}
+.featured-cards-text {
+    margin-top: 18px;
+    font-family: Tenor Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+    color:rgba(0, 0, 0, 1);
+    margin-right: 20px;
+}
+.featured-cards-author {
+    margin-top: 15px;
+    font-family: Libre Franklin;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 1);
+    margin-bottom: 25px;
+}
+.row{
+    margin: 0;
+}

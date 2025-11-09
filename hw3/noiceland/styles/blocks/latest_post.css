@@ -1,0 +1,96 @@
+.latest-post{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.latest-post-title{
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(153, 153, 153, 1);
+    margin-left: 120px;
+    margin-bottom: 5px;
+}
+
+.latest-card {
+    align-items: center;
+    width: 285px;
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.latest-cards-title {
+    margin-top: 24px;
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(153, 153, 153, 1);
+
+}
+.latest-cards-text {
+    margin-top: 18px;
+    font-family: Tenor Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+    color:rgba(0, 0, 0, 1);
+    margin-right: 9px;
+}
+.latest-cards-author {
+    margin-top: 15px;
+    font-family: Libre Franklin;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 1);
+    margin-bottom: 24px;
+}
+.row{
+    margin: 0;
+}
+
+.latest-all{
+    margin-top: 65px;
+    margin-left: 618px;
+    width: 205px;
+    height: 54px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 1);
+}
+.line2{
+    height: 1px;
+    margin-top: 90px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 90px;
+    background-color: rgba(230, 230, 230, 1);
+}

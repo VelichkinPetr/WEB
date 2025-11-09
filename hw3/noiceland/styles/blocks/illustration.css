@@ -1,0 +1,62 @@
+.illustration {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 59px;
+}
+.illustration-block {
+    margin-left: 51px;
+}
+.illustration-title {
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(153, 153, 153, 1);
+    margin-bottom: 18px;
+    margin-top: 5px;
+
+}
+.illustration-subtitle {
+    font-family: Tenor Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 36px;
+    leading-trim: NONE;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 27px;
+    margin-right: 1px;
+
+}
+.illustration-text {
+    font-family: Source Serif Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(102, 102, 102, 1);
+    margin-right: 11px;
+
+}
+.illustration-by {
+    font-family: Libre Franklin;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 10px;
+    leading-trim: NONE;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 28px;
+
+}
