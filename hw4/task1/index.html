@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Task1</title>
+    </head>
+    <body>
+        <button onclick="ClickButton()">click</button>
+        <input type="" name="" id="">
+        <script>
+            function ClickButton(){
+                let inputElement = document.getElementsByTagName('input')[0];
+                let inputText = inputElement.value;
+                inputElement.value = ''
+                if (inputText.length === 0){
+                    inputText = 'Упс, вы не ввели тест('
+                }
+                alert(inputText)
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+.my-list {
+}
+.red-btn {
+    background-color: #ff6b6b;
+    color: white;
+}
+.green-btn {
+    background-color: #51cf66;
+    color: white;
+}
+.red-btn:hover {
+    background-color: #ff5252;
+}
+.green-btn:hover {
+    background-color: #40c057;
+}
+.red-text{
+    color: red;
+}
+.green-text{
+    color: green;
+}
