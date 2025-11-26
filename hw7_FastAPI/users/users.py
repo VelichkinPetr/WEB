@@ -25,7 +25,7 @@ class Users:
         self.__service.delete_all_users()
     
     def delete_user_by_username(self, username: str):
-        self.__service.delete_book_by_username(username)
+        self.__service.delete_user_by_username(username)
 
 class UsersService:
 
@@ -74,7 +74,7 @@ class UsersService:
     def delete_all_users(self) -> None:
         self.storage.clear()
 
-    def delete_book_by_username(self, username: str) -> None:
+    def delete_user_by_username(self, username: str) -> None:
         target_index = self.search_user_index_by_username(username)
         if target_index is None:
             raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail='User with username  not found')
