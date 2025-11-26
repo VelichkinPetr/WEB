@@ -51,32 +51,33 @@ class LibraryService:
     
     def get_book_by_id(self, id: int) -> list[Book]:
         target_index = self.search_book_index_by_id(id)
-        if target_index is not None:
-             return self.storage[target_index].model_dump()
-        raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail='Book with id not found')
-
+        if target_index is None:
+            raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail='Book with id not found')
+        return self.storage[target_index].model_dump()
+        
     def update_book_by_id(self, id: int, data: Dict[str, Any]) -> Dict[str, Any]:
         target_index = self.search_book_index_by_id(id)
-        if target_index is not None:
-            common_book = self.storage[target_index].model_dump()
-            common_keys = common_book.keys() & data.keys() - {'id'}
-            if common_keys:
-                update_data = {key: data[key] for key in common_keys}
-                updated_book = self.storage[target_index].model_copy(update=update_data)
-                self.storage[target_index] = updated_book
-                return updated_book
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail='Book with id not found')
 
+        if target_index is None:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail='Book with id not found')
+        
+        common_book = self.storage[target_index].model_dump()
+        common_keys = common_book.keys() & data.keys() - {'id'}
+        if common_keys:
+            update_data = {key: data[key] for key in common_keys}
+            updated_book = self.storage[target_index].model_copy(update=update_data)
+            self.storage[target_index] = updated_book
+            return updated_book
+        
     def delete_all_books(self) -> None:
         self.storage.clear()
 
     def delete_book_by_id(self, id: int) -> None:
         target_index = self.search_book_index_by_id(id)
-        if target_index is not None:
-            del self.storage[target_index]
-            return
-        raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail='Book with id not found')
-    
+        if target_index is None:
+            raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail='Book with id not found')
+        del self.storage[target_index]
+            
     def search_book_index_by_id(self, id: int) -> int | None:
         for i, book in enumerate(self.storage):
             if book.id == id:
